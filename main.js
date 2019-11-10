@@ -76,3 +76,7 @@ function cbPow (a, b) {
 function cbAdd(a, b) {
     return a + b;
 }
+
+mainFunc(1, 2, cbRandom);
+mainFunc(1, 2, cbPow);
+mainFunc(1, 2, cbAdd);
